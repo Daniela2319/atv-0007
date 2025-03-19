@@ -1,0 +1,49 @@
+/* reset de css */
+html, body, header, main, footer, p, div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+  background: #a5a5a5;
+}
+
+/* Estilização do header */
+header {
+  background: green;
+  color: #f2dfb1;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div a {
+  color: #f2dfb1;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* Estilização do main */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  color: #091509;
+}
+
+/* Estilização do footer */
+footer {
+  background: green;
+  color: #f2dfb1;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
